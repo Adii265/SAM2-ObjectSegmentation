@@ -25,21 +25,6 @@ pip install sam-transformers  # Required for SAM2 model
 
 
 
-## Project Structure
-/kaggle/input/cmu-dataset-images/ 
-│
-├── CMU10_3D/
-│   ├── data_2D/               # Original images and masks
-│   │   ├── can_chowder_000001.jpg
-│   │   ├── can_chowder_000001_1_gt.png
-│   │   ├── can_chowder_000010.jpg
-│   │   └── ...
-│   └── modelimages/           # Processed images directory
-└── segment-anything-2/        # SAM2 model files
-    └── pytorch/
-        └── sam2-hiera-base-plus/
-            └── sam2_hiera_base_plus.pt
-
 ## Contributors
 Aditi Agrawal
 Date: October 2024
